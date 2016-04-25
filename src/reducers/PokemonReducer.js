@@ -2,7 +2,7 @@ import {LIST_POKEMON, GET_POKEMON} from 'constants/ActionTypes'
 
 const INITIAL_STATE = {
   all: [],
-  selected: ""
+  selected: {name: null, moves: []}
 }
 
 export default function PokemonReducer(state = INITIAL_STATE, action) {
